@@ -1,14 +1,17 @@
+@value colors: 'colors.module.css';
+@value orangeText, whiteText, cream from colors;
+
 .header {
-    color: #FF5A09
+    color: orangeText;
 }
 
 .bodyText {
     /*color: #6E6E6E*/
-    color: #dcdcdc;
+    color: whiteText;
     font-size: 16px;
 }
 
 
 .appBackground {
-    background-color: #1d1e22;
+    background-color: cream;
 }
