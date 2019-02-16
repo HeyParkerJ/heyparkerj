@@ -11,13 +11,10 @@ export default () => (
         I forge code, smite burritos, and like my lists in threes.
       </p>
       <p>
-        As a professional - I take pride in my eagerness to learn and challange the things I thought I already knew, the connections I make with people, my knack for seeing the big picture, my written communication skills, and my attention to detail.
-      </p>
-      <p>
         As a developer - I love keyboard shortcuts, ReactJS, the open web, a moderated approach to hype trains, and finding just the right album to flow to.
       </p>
       <p>
-        As a human - I'm passionate about fantasy football, music, eSports, athletic endeavors, and hole-in-the-wall burrito shops.
+        As a dude - I'm passionate about fantasy football, music, eSports, athletic endeavors, and hole-in-the-wall burrito shops.
       </p>
     </div>
   </Layout>
