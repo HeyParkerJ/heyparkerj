@@ -7,11 +7,22 @@
 
 .nav {
     display: flex;
+    justify-content: flex-end;
     list-style: none;
     color: orangeText;
     padding-left: 0;
 }
 
-.navElement {
+.list {
     margin: 0 2rem 0 0rem;
+}
+
+.link {
+    color: orangeText;
+    text-decoration: none;
+}
+
+.activeLink {
+    composes: link;
+    border-bottom: .10rem solid;
 }
