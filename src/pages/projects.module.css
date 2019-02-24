@@ -5,17 +5,8 @@
     color: orangeText;
 }
 
-.link {
-    color: orangeText;
-}
-
 .bodyText {
     /*color: #6E6E6E*/
     color: whiteText;
     font-size: 18px;
-}
-
-
-.appBackground {
-    background-color: cream;
 }

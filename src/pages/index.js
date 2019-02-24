@@ -11,10 +11,10 @@ export default () => (
         I forge code, smite burritos, and like my lists in threes.
       </p>
       <p>
-        As a dude playing a developer - I love ReactJS, keyboard shortcuts, the open web, a moderated approach to hype trains, and finding just the right album to flow to.
+        My goal is to combine pragmatic development process with my thirst to create valuable things. I care deeply about delivering quickly, iterating forward and continuous learning.
       </p>
       <p>
-        As a dude playing a dude - I'm passionate about fantasy football, music, eSports, athletic endeavors, and discovering hole-in-the-wall burrito shops.
+        I'm always looking for fun to have and stuff to build. If you want to work together, <a href="mailto:parkerjohnsonwebdev@gmail.com" className={styles.link}>shoot me an email!</a>
       </p>
     </div>
   </Layout>
