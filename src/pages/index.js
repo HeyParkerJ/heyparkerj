@@ -1,11 +1,15 @@
 import React from "react"
 import Layout from '../components/layout'
+import image from './parker.jpeg'
 
 import styles from './index.module.css'
 
 export default () => (
   <Layout>
-    <h1 className={styles.header}>Hi! I'm Parker.</h1>
+    <h1 className={styles.header}>
+      <img src={image} className={styles.image} alt="A picture of Parker"/>
+      Hi! I'm Parker.
+    </h1>
     <div className={styles.bodyText}>
       <p>
         I forge code, smite burritos, and like my lists in threes.
