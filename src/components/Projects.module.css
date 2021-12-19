@@ -1,0 +1,13 @@
+@value colors: 'colors.module.css';
+@value orangeText, whiteText, cream from colors;
+
+.list {
+  margin: 0 1rem 0 0rem;
+  list-style: none;
+  color: whiteText;
+}
+
+.link {
+  color: orangeText;
+  font-size: 1rem;
+}

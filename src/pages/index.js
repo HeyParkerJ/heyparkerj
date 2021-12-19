@@ -7,7 +7,7 @@ import styles from './index.module.css'
 export default () => (
   <Layout>
     <h1 className={styles.header}>
-      <img src={image} className={styles.image} alt="A picture of Parker"/>
+      <img src={image} className={styles.image} alt="" />
       Hi! I'm Parker.
     </h1>
     <div className={styles.bodyText}>
