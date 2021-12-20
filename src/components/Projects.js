@@ -57,7 +57,7 @@ const projects = [
     "icons": ["node", "express"]
   },
   {
-    "title": "Bonus Round Website",
+    "title": "Bonus Round Brochure Website",
     "url": "https://github.com/HeyParkerJ/bonus-round-website",
     "description": "A brochure-ware static website for the late Barcade Bonus Round, based in Phoenix, AZ. Dynamically fetches the beer list from TapHunter and displays it.",
     "icons": ["html", "css", "javascript"]
