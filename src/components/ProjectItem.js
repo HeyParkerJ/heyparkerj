@@ -7,6 +7,15 @@ export default (props) => (
       <h2>
         {props.title} <a className={styles.link} href={props.url}>Github</a>
       </h2>
+      <div>
+        {
+          props.icons ?
+            props.icons.map((icon) => {
+              return <img src={icon} />
+            }) :
+            null
+        }
+      </div>
       <p>
         {props.description}
       </p>
