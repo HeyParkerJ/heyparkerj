@@ -11,11 +11,9 @@ export default () => (
       Hi! I'm Parker.
     </h1>
     <div className={styles.bodyText}>
+      <p><strong>My name is Parker Johnson, and I build software.</strong> Currently, I'm helping <a href="https://www.nwea.org/" target="_blank" className={styles.link}>NWEA</a> improve their reporting landscape to help teachers and principals better understand student performance.</p>
       <p>
-        I forge code, smite burritos, and like my lists in threes.
-      </p>
-      <p>
-        My goal is to combine my thirst to create valuable things with a pragmatic development process. I care deeply about delivering quickly, improving habitually, and continuous learning.
+        I love creating things and solving problems, and I'm deeply driven to habitually improve, deliver quickly, and learn continuously. I pride myself on communication and building trust.
       </p>
       <p>
         I'm always looking for fun to have and stuff to build. If you want to work together, <a href="mailto:parkerjohnsonwebdev@gmail.com" className={styles.link}>shoot me an email!</a>

@@ -9,13 +9,13 @@ export default () => (
     <h1 className={styles.header}>About</h1>
     <div className={styles.bodyText}>
       <p>
-        I'm a full stack engineer with production experience in ReactJS, Node, Java, SQL, and of course the ever lovely trio of HTML, Javascript and CSS. I pride myself on thinking about the bigger picture and applying critical thinking, context, and clear goals before proposing a solution.
+        I'm a full stack engineer with production experience in ReactJS, Node, Java, SQL, and the lovely trio of HTML, Javascript and CSS.
       </p>
       <p>
-        Outside the office, I've tinkered with a small handful of <Link to="/projects" className={styles.link}>projects</Link> and had the pleasure of building a landing page for an Arizona Barcade.
+        Outside the office, I've tinkered with a small handful of <Link to="/projects" className={styles.link}>projects</Link> and had the pleasure of building a landing page for the late Arizona Barcade, Bonus Round.
       </p>
       <p>
-        For the fun parts - I love beer, burritos, geeking out about ancient Sith lore (it's still canon to me, dammit), keeping up with tech news, and fragging out with friends on the PC.
+        On a personal note, I stay very active, have been enjoying learning woodworking, play in a dedicated fantasy football league with my best friends (which drives a lot of ideas for projects), and I have two dogs!
       </p>
     </div>
   </Layout>
