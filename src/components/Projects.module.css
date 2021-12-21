@@ -7,7 +7,13 @@
   color: whiteText;
 }
 
-.link {
-  color: orangeText;
+.ghLink {
   font-size: 1rem;
+  margin-left: 0.5rem;
+}
+
+.header {
+  color: #6ab4b3;
+  /* color: #f8f2c9; */
+  /* color: #e8ae53; */
 }

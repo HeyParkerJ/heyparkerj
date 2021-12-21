@@ -13,7 +13,7 @@
     "deploy": "gatsby build --prefix-paths && gh-pages -d public -b gh-pages"
   },
   "dependencies": {
-    "gatsby": "^2.0.118",
+    "gatsby": "^1.0.118",
     "gatsby-plugin-resolve-src": "^2.0.0",
     "react": "^16.8.0",
     "react-dom": "^16.8.0"

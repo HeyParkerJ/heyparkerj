@@ -127,12 +127,20 @@ const projects = [
 export default () => (
   <section className={styles.projects}>
     <ul className={styles.nav}>
-      {projects.map((project) => {
+      {projects.map((project, idx) => {
         const iconsForThisItem = project.icons ?
           project.icons.map((icon) => {
             return icons[icon]
           }) : null
-        return <ProjectItem url={project.url} title={project.title} description={project.description} icons={iconsForThisItem} />
+        return (
+          <>
+            {idx > 0 ?
+              <hr style={{ "border-color": "229DA6", width: "75%", "margin": "1rem auto 1rem auto" }} />
+              : null
+            }
+            <ProjectItem url={project.url} title={project.title} description={project.description} icons={iconsForThisItem} />
+          </>
+        )
       })}
     </ul>
   </section>
