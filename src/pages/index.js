@@ -11,7 +11,7 @@ export default () => (
       Hi! I'm Parker.
     </h1>
     <div className={styles.bodyText}>
-      <p><strong>My name is Parker Johnson, and I build software.</strong> Currently, I'm helping <a href="https://www.nwea.org/" target="_blank" className={styles.link}>NWEA</a> improve their reporting landscape to help teachers and principals better understand student performance.</p>
+      <p><strong>My name is Parker Johnson, and I build software.</strong> Currently, I'm helping <a href="https://www.nwea.org/" target="_blank" rel="noreferrer" className={styles.link}>NWEA</a> improve their reporting landscape to help teachers and principals better understand student performance.</p>
       <p>
         I love creating things and solving problems, and I'm deeply driven to habitually improve, deliver quickly, and learn continuously. I pride myself on communication and building trust.
       </p>

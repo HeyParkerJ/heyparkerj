@@ -130,12 +130,12 @@ export default () => (
       {projects.map((project, idx) => {
         const iconsForThisItem = project.icons ?
           project.icons.map((icon) => {
-            return icons[icon]
+            return { url: icons[icon], name: icon }
           }) : null
         return (
           <>
             {idx > 0 ?
-              <hr style={{ "border-color": "229DA6", width: "75%", "margin": "1rem auto 1rem auto" }} />
+              <hr className={styles.divider} />
               : null
             }
             <ProjectItem url={project.url} title={project.title} description={project.description} icons={iconsForThisItem} />

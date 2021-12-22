@@ -6,13 +6,13 @@ export default (props) => (
   <li className={styles.list}>
     <div>
       <h2 className={styles.header}>
-        {props.title} <a className={styles.ghLink} href={props.url}><img src={GHIcon} /></a>
+        {props.title} <a className={styles.ghLink} href={props.url}><img src={GHIcon} alt="link to github" /></a>
       </h2>
       <div>
         {
           props.icons ?
             props.icons.map((icon) => {
-              return <img src={icon} />
+              return <img src={icon.url} alt={icon.name} />
             }) :
             null
         }

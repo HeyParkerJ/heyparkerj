@@ -12,6 +12,12 @@
   margin-left: 0.5rem;
 }
 
+.divider {
+  border-color: #229da6;
+  width: 75%;
+  margin: 1rem auto 1rem auto;
+}
+
 .header {
   color: #6ab4b3;
   /* color: #f8f2c9; */
