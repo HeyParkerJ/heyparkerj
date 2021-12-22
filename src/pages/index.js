@@ -3,6 +3,7 @@ import Layout from '../components/layout'
 import image from './parker.jpeg'
 
 import styles from './index.module.css'
+import "../styles.css"
 
 export default () => (
   <Layout>

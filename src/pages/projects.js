@@ -9,7 +9,7 @@ export default () => (
   <Layout>
     <h1 className={styles.header}>Projects</h1>
     <Projects />
-    <hr style={{ "margin": "0 0 1rem 0" }} />
-    <img style={{ margin: "0 0 1rem 0" }} src={image} alt="" />
+    <hr className={styles.divider} />
+    <img className={styles.ghContributions} src={image} alt="" />
   </Layout>
 )
