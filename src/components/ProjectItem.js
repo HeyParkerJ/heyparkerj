@@ -2,7 +2,7 @@ import React from "react"
 import * as styles from "./Projects.module.css";
 import GHIcon from "./GitHub-Mark-32px.png"
 
-export default (props) => (
+const ProjectItem = (props) => (
   <li className={styles.list}>
     <div>
       <h2 className={styles.header}>
@@ -23,3 +23,5 @@ export default (props) => (
     </div>
   </li >
 )
+
+export default ProjectItem;

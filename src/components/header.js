@@ -26,7 +26,7 @@ const NavElement = props =>
 //     </Link>
 //   </li>
 
-export default () => (
+const Header = () => (
   <nav className={styles.header}>
     <ul className={styles.nav}>
       <NavElement to="/">Home</NavElement>
@@ -35,3 +35,5 @@ export default () => (
     </ul>
   </nav>
 )
+
+export default Header;

@@ -5,7 +5,7 @@ import image from './parker.jpeg'
 import * as styles from './index.module.css'
 import "../styles.css"
 
-export default () => (
+const index = () => (
   <Layout>
     <h1 className={styles.header}>
       <img src={image} className={styles.image} alt="" />
@@ -22,3 +22,5 @@ export default () => (
     </div>
   </Layout>
 )
+
+export default index;

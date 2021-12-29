@@ -5,7 +5,7 @@ import Projects from '../components/Projects'
 import image from './contributions.png'
 import * as styles from './projects.module.css'
 
-export default () => (
+const projects = () => (
   <Layout>
     <h1 className={styles.header}>Projects</h1>
     <Projects />
@@ -13,3 +13,5 @@ export default () => (
     <img className={styles.ghContributions} src={image} alt="" />
   </Layout>
 )
+
+export default projects;

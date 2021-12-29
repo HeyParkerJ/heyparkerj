@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 
 import * as styles from './about.module.css'
 
-export default () => (
+const about = () => (
   <Layout>
     <h1 className={styles.header}>About</h1>
     <div className={styles.bodyText}>
@@ -20,3 +20,5 @@ export default () => (
     </div>
   </Layout>
 )
+
+export default about;

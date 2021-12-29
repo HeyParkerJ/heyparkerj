@@ -124,7 +124,7 @@ const projects = [
   },
 ]
 
-export default () => (
+const Projects = () => (
   <section>
     <ul>
       {projects.map((project, idx) => {
@@ -145,3 +145,5 @@ export default () => (
     </ul>
   </section>
 )
+
+export default Projects;
