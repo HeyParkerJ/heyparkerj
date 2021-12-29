@@ -10,7 +10,8 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\"",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public -b gh-pages"
+    "deploy": "gatsby build --prefix-paths && s3-deploy './public/**' --cwd './public/' --bucket www.heyparkerj.com --deleteRemoved --gzip && npm run clear",
+    "clear": "aws-cloudfront-invalidate E3F8GWSN58Z7FI"
   },
   "dependencies": {
     "gatsby": "^4.4.0",
@@ -26,7 +27,9 @@
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
   "devDependencies": {
+    "aws-cloudfront-invalidate": "^0.1.3",
     "gatsby-cli": "^4.4.0",
-    "gh-pages": "^3.2.3"
+    "gh-pages": "^3.2.3",
+    "s3-deploy": "^1.4.0"
   }
 }
