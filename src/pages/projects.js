@@ -3,7 +3,7 @@ import Layout from '../components/layout'
 import Projects from '../components/Projects'
 
 import image from './contributions.png'
-import styles from './projects.module.css'
+import * as styles from './projects.module.css'
 
 export default () => (
   <Layout>

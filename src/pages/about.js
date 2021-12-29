@@ -2,7 +2,7 @@ import React from "react"
 import Layout from '../components/layout'
 import { Link } from "gatsby"
 
-import styles from './about.module.css'
+import * as styles from './about.module.css'
 
 export default () => (
   <Layout>

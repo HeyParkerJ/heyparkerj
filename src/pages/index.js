@@ -2,7 +2,7 @@ import React from "react"
 import Layout from '../components/layout'
 import image from './parker.jpeg'
 
-import styles from './index.module.css'
+import * as styles from './index.module.css'
 import "../styles.css"
 
 export default () => (

@@ -1,5 +1,5 @@
 import React from "react"
-import styles from "./Projects.module.css";
+import * as styles from "./Projects.module.css";
 import GHIcon from "./GitHub-Mark-32px.png"
 
 export default (props) => (

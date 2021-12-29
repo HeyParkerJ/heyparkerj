@@ -1,5 +1,5 @@
 import React from "react"
-import styles from './Projects.module.css'
+import * as styles from './Projects.module.css'
 import ProjectItem from './ProjectItem';
 
 const icons = {
@@ -125,8 +125,8 @@ const projects = [
 ]
 
 export default () => (
-  <section className={styles.projects}>
-    <ul className={styles.nav}>
+  <section>
+    <ul>
       {projects.map((project, idx) => {
         const iconsForThisItem = project.icons ?
           project.icons.map((icon) => {
