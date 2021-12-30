@@ -2,31 +2,30 @@
 @value orangeText, whiteText, cream from colors;
 
 .header {
-    color: orangeText;
-    display: flex;
-    align-content: center;
-    align-items: center;
+  color: orangeText;
+  display: flex;
+  align-content: center;
+  align-items: center;
 }
 
 .link {
-    color: orangeText;
+  color: orangeText;
 }
 
 .image {
-    width: 5rem;
-    height: 5rem;
-    border-radius: 50%;
-    margin-right: 1rem;
-    filter: grayscale(30%);
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  margin: 1rem 1rem 1rem 0;
+  filter: grayscale(30%);
 }
 
 .bodyText {
-    /*color: #6E6E6E*/
-    color: whiteText;
-    font-size: 18px;
+  /*color: #6E6E6E*/
+  color: whiteText;
+  font-size: 18px;
 }
 
-
 .appBackground {
-    background-color: cream;
+  background-color: cream;
 }

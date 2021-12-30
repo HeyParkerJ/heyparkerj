@@ -7,10 +7,7 @@ import "../styles.css"
 
 const index = () => (
   <Layout>
-    <h1 className={styles.header}>
-      <img src={image} className={styles.image} alt="" />
-      Hi! I'm Parker.
-    </h1>
+    <img src={image} className={styles.image} alt="" />
     <div className={styles.bodyText}>
       <p><strong>My name is Parker Johnson, and I build software.</strong> Currently, I'm helping <a href="https://www.nwea.org/" target="_blank" rel="noreferrer" className={styles.link}>NWEA</a> improve their reporting landscape to help teachers and principals better understand student performance.</p>
       <p>
