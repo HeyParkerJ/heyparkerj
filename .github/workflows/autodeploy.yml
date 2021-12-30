@@ -10,7 +10,7 @@ jobs:
       - name: Setup Node.js # setup Node.js in the runner
         uses: actions/setup-node@v1
         with:
-          node-version: '12'
+          node-version: "14"
       - name: Caching Gatsby
         id: gatsby-cache-build
         uses: actions/cache@v2
@@ -24,7 +24,7 @@ jobs:
       - name: Install dependencies
         run: npm i
       - name: Build
-        run: npm run build 
+        run: npm run build
       - name: Set AWS Credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:
