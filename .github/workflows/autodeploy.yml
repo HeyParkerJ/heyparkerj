@@ -1,0 +1,35 @@
+name: Auto Deploy
+on:
+  push:
+    branches: [master] # run on pushes to master
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2 # setup the repository in the runner
+      - name: Setup Node.js # setup Node.js in the runner
+        uses: actions/setup-node@v1
+        with:
+          node-version: '12'
+      - name: Caching Gatsby
+        id: gatsby-cache-build
+        uses: actions/cache@v2
+        with:
+          path: |
+            public
+            .cache
+            .node_modules
+          key: ${{ runner.os }}-www.heyparkerj.com-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: ${{ runner.os }}-www.heyparkerj.com-
+      - name: Install dependencies
+        run: npm i
+      - name: Build
+        run: npm run build 
+      - name: Set AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-regaion: na-west-2
+      - name: Deploy
+        run: npm run deploy
