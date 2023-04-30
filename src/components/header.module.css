@@ -1,29 +1,29 @@
-@value colors: 'colors.module.css';
+@value colors: '@/styles/colors.module.css';
 @value orangeText, whiteText, cream from colors;
 
 .header {
-    height: 2rem;
+  height: 2rem;
 }
 
 .nav {
-    display: flex;
-    justify-content: flex-end;
-    list-style: none;
-    color: orangeText;
-    padding-left: 0;
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  color: orangeText;
+  padding-left: 0;
 }
 
 .list {
-    margin: 0 2rem 0 0rem;
+  margin: 0 2rem 0 0rem;
 }
 
 .link {
-    color: orangeText;
-    text-decoration: none;
-    font-size: 1.2rem;
+  color: orangeText;
+  text-decoration: none;
+  font-size: 1.2rem;
 }
 
 .activeLink {
-    composes: link;
-    border-bottom: .10rem solid;
+  composes: link;
+  border-bottom: 0.1rem solid;
 }

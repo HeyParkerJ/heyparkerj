@@ -1,4 +1,4 @@
-@value colors: 'colors.module.css';
+@value colors: '@/styles/colors.module.css';
 @value orangeText, whiteText, cream from colors;
 
 .header {

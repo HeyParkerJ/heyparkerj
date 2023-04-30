@@ -1,0 +1,13 @@
+/* This resets some cumbersome NextJS defaults and allows pages to be full height */
+html,
+body,
+body > div:first-child,
+div#__next,
+div#__next > div {
+  height: 100%;
+}
+
+/* Removes default 8px margin on the body */
+body {
+  margin: 0 0 0 0;
+}

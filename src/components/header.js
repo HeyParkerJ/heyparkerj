@@ -1,30 +1,23 @@
-import React from "react"
-import { Link } from "gatsby"
-import * as styles from './header.module.css'
+import React from "react";
+import Link from "next/link";
+import { useRouter } from "next/router";
+import * as styles from "./header.module.css";
 
-const NavElement = props =>
-  <li className={styles.list}>
-    <Link to={props.to}
-      className={styles.link}
-      activeClassName={styles.activeLink}
-    >
-      {props.children}
-    </Link>
-  </li>
-
-// const PartialNavElement = props =>
-//   <li className={styles.list}>
-//     <Link to={props.to}
-//       className={styles.link}
-//       activeClassName={styles.activeLink}
-//       getProps={({ isPartiallyCurrent }) =>
-//         isPartiallyCurrent
-//           ? { className: styles.activeLink }
-//           : { className: styles.link }}
-//     >
-//       {props.children}
-//     </Link>
-//   </li>
+const NavElement = (props) => {
+  const router = useRouter();
+  return (
+    <li className={styles.list}>
+      <Link
+        href={props.to}
+        className={
+          router.pathname == props.to ? styles.activeLink : styles.link
+        }
+      >
+        {props.children}
+      </Link>
+    </li>
+  );
+};
 
 const Header = () => (
   <nav className={styles.header}>
@@ -34,6 +27,6 @@ const Header = () => (
       <NavElement to="/about">About</NavElement>
     </ul>
   </nav>
-)
+);
 
 export default Header;
