@@ -1,4 +1,4 @@
-@value colors: 'colors.module.css';
+@value colors: '@/styles/colors.module.css';
 @value orangeText, whiteText, cream from colors;
 
 .header {
@@ -13,19 +13,16 @@
 }
 
 .image {
-  width: 5rem;
-  height: 5rem;
+  width: 12rem;
+  height: 11rem;
   border-radius: 50%;
   margin: 1rem 1rem 1rem 0;
   filter: grayscale(30%);
+  float: left;
 }
 
 .bodyText {
   /*color: #6E6E6E*/
   color: whiteText;
   font-size: 18px;
-}
-
-.appBackground {
-  background-color: cream;
 }
