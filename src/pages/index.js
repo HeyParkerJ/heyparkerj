@@ -1,13 +1,14 @@
 import React from "react";
 import Layout from "../components/layout";
-import image from "./parker.jpeg";
+import image from "./parker3.png";
+import Image from "next/image";
 
 import * as styles from "./index.module.css";
 
 const index = () => (
   <Layout>
-    <img src={image} className={styles.image} alt="" />
     <div className={styles.bodyText}>
+      <Image src={image} className={styles.image} alt="" />
       <p>
         <strong>My name is Parker Johnson, and I build software.</strong>{" "}
         Currently, I'm helping{" "}
@@ -22,6 +23,10 @@ const index = () => (
         improve their reporting landscape to help teachers and principals better
         understand student performance.
       </p>
+      <br />
+      <br />
+      <br />
+      <br />
       <p>
         I love creating things and solving problems, and I'm deeply driven to
         habitually improve, deliver quickly, and learn continuously. I pride

@@ -1,16 +1,16 @@
-@value colors: 'colors.module.css';
+@value colors: '@/styles/colors.module.css';
 @value orangeText, whiteText, cream from colors;
 
 .header {
-    color: orangeText;
+  color: orangeText;
 }
 
 .link {
-    color: orangeText;
+  color: orangeText;
 }
 
 .bodyText {
-    /*color: #6E6E6E*/
-    color: whiteText;
-    font-size: 18px;
+  /*color: #6E6E6E*/
+  color: whiteText;
+  font-size: 18px;
 }

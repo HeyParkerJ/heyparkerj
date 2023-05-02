@@ -1,13 +1,15 @@
+@value colors: '@/styles/colors.module.css';
+@value orangeText, whiteText, cream from colors;
+
 /* This resets some cumbersome NextJS defaults and allows pages to be full height */
 html,
 body,
 body > div:first-child,
 div#__next,
 div#__next > div {
-  height: 100%;
 }
 
-/* Removes default 8px margin on the body */
 body {
+  background-color: #f2ecde; /* Cream in colors.module.css */
   margin: 0 0 0 0;
 }

@@ -6,12 +6,13 @@ import * as styles from "./header.module.css";
 const NavElement = (props) => {
   const router = useRouter();
   return (
-    <li className={styles.list}>
+    <li key={`li-${props.to}`} className={styles.list}>
       <Link
         href={props.to}
         className={
           router.pathname == props.to ? styles.activeLink : styles.link
         }
+        key={`link-${props.to}`}
       >
         {props.children}
       </Link>
