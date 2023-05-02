@@ -9,11 +9,11 @@ const about = () => (
     <h1 className={styles.header}>About</h1>
     <div className={styles.bodyText}>
       <p>
-        I'm a full stack engineer with production experience in ReactJS, Node,
-        Java, SQL, and the lovely trio of HTML, Javascript and CSS.
+        I&apos;m a full stack engineer with production experience in ReactJS,
+        Node, Java, SQL, and the lovely trio of HTML, Javascript and CSS.
       </p>
       <p>
-        Outside the office, I've tinkered with a small handful of{" "}
+        Outside the office, I&apos;ve tinkered with a small handful of{" "}
         <Link href="/projects" className={styles.link}>
           projects
         </Link>{" "}

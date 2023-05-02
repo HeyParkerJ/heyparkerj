@@ -9,6 +9,7 @@
     "build": "next build",
     "start": "next start",
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\"",
+    "lint": "eslint .",
     "deploy": "echo 'TODO'",
     "clear": "aws-cloudfront-invalidate E3F8GWSN58Z7FI"
   },
